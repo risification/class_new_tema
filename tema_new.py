@@ -41,8 +41,7 @@ class Car:
 
 car = Car('tesla', 'XS', 90000, 390)
 car.broke('stolb')
-car.broke('stolb')
-car.broke('stolb')
+car.broke('car')
 car.check_broken()
 car.build()
-print(car.broken, car.state, car.price, car.speed)
+print(car.broken, car.state, car.price, car.speed, car.fuel)
