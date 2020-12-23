@@ -1,19 +1,18 @@
 class Planet:
 
-    def __init__(self, name, position, size, line):
+    def __init__(self, name, position, size):
         self.name = name
         self.position = position
         self.size = size
         self.humanity = False
         self.monsters = True
         self.water = False
-        self.oxygen = False
+        self.oxygen = True
         self.sun = True  # Вращается ли вокруг солнца какого нибудь
-        self.temp = -273
+        self.temp = 10
         self.gasoline = True
         self.meteor = 19
         self.destroyed = False
-        self.line = line
 
     def oxygen_check(self):
         if self.name == 'zemly':
@@ -70,7 +69,10 @@ class Planet:
             f'газы: {self.gasoline}, метеорид:{self.meteor}')
 
 
-planet1 = Planet('Pluton', 'solar system', 20, 3)
-print(planet1.meteor_vs_planet(), planet1.water_in_planet())
-
+planet1 = Planet('zemly', 'solar system', 20)
+planet1.water_in_planet()
+planet1.check_which_system()
+planet1.have_monster()
+planet1.oxygen_check()
+print(planet1.meteor_vs_planet())
 planet1.description()
