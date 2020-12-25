@@ -192,13 +192,15 @@ print(person1.name, person1.race, 'speed', person1.speed, 'level', person1.level
       'strenght ', person1.strenght,
       'stamina', person1.stamina,
       'damage', person1.damage,
-      'health', person1.health, 'intellegence', person1.intellegence, 'armor', person1.armor, 'expririence', person1.expirience
+      'health', person1.health, 'intellegence', person1.intellegence, 'armor', person1.armor, 'expririence',
+      person1.expirience
       )
-print(warrior1.name,warrior1.race, 'speed',warrior1.speed, 'level',warrior1.level, 'agility',warrior1.agility,
-      'strenght ',warrior1.strenght,
-      'stamina',warrior1.stamina,
-      'damage',warrior1.damage,
-      'health',warrior1.health, 'intellegence',warrior1.intellegence, 'armor',warrior1.armor, 'expririence',warrior1.expirience,
+print(warrior1.name, warrior1.race, 'speed', warrior1.speed, 'level', warrior1.level, 'agility', warrior1.agility,
+      'strenght ', warrior1.strenght,
+      'stamina', warrior1.stamina,
+      'damage', warrior1.damage,
+      'health', warrior1.health, 'intellegence', warrior1.intellegence, 'armor', warrior1.armor, 'expririence',
+      warrior1.expirience,
       '\n')
 
 print(tank1.name, tank1.race, 'speed', tank1.speed, 'level', tank1.level, 'agility', tank1.agility,
@@ -211,11 +213,13 @@ print(person1.name, person1.race, 'speed', person1.speed, 'level', person1.level
       'strenght ', person1.strenght,
       'stamina', person1.stamina,
       'damage', person1.damage,
-      'health', person1.health, 'intellegence', person1.intellegence, 'armor', person1.armor, 'expririence', person1.expirience
+      'health', person1.health, 'intellegence', person1.intellegence, 'armor', person1.armor, 'expririence',
+      person1.expirience
       )
-print(warrior1.name,warrior1.race, 'speed',warrior1.speed, 'level',warrior1.level, 'agility',warrior1.agility,
-      'strenght ',warrior1.strenght,
-      'stamina',warrior1.stamina,
-      'damage',warrior1.damage,
-      'health',warrior1.health, 'intellegence',warrior1.intellegence, 'armor',warrior1.armor, 'expririence',warrior1.expirience
+print(warrior1.name, warrior1.race, 'speed', warrior1.speed, 'level', warrior1.level, 'agility', warrior1.agility,
+      'strenght ', warrior1.strenght,
+      'stamina', warrior1.stamina,
+      'damage', warrior1.damage,
+      'health', warrior1.health, 'intellegence', warrior1.intellegence, 'armor', warrior1.armor, 'expririence',
+      warrior1.expirience
       )
