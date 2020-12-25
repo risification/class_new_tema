@@ -179,7 +179,7 @@ class Tank(Person):
             self.level += 1
 
 
-person1 = Person(name='abrakadabra', race='human')
+person1 = Person(name='abradacabra', race='human')
 warrior1 = Warrior(name='nalsurun', race='warrior')
 tank1 = Tank(name='grok', race='tank')
 print(tank1.name, tank1.race, 'speed', tank1.speed, 'level', tank1.level, 'agility', tank1.agility,
